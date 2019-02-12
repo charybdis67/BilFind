@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item android:id="@+id/nav_VCMUP"
+            android:title="View Current Meet Up Points"
+            android:icon="@mipmap/ic_place_black_24dp"
+            android:layout_width="wrap_content" />
+        <item android:id="@+id/nav_SetEvent"
+            android:title="Set an Event"
+            android:icon="@mipmap/ic_event_black_24dp"
+            android:checked="false" />
+        <item android:id="@+id/nav_GetDirections"
+    android:title="Get Directions"
+        android:icon="@mipmap/ic_directions_black_24dp" />
+        <item android:id="@+id/nav_BusInfo"
+            android:title="Bus Information"
+            android:icon="@mipmap/ic_directions_bus_black_24dp" />
+        <item android:id="@+id/nav_Help"
+            android:icon="@mipmap/ic_help_black_24dp"
+            android:title="Help" />
+        <item android:id="@+id/nav_Exit"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:title="Logout" />
+    </group>
+
+</menu>
